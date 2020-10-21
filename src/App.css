@@ -12,7 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+  
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,7 +23,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+ 
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +35,74 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.top {
+  margin-top: 10px;
+}
+
+.top-of-topStyle {
+  display:inline;
+  float:right;
+  font-size:12px;
+}
+
+.logo {
+  margin-right: 50px;
+  display: inline;
+}
+
+.search-bar {
+  white-space:nowrap;
+  border-radius: 50px;
+  border-color: red;
+  padding-left:20px;
+  background: url(search.PNG) no-repeat;
+  background-position: 95% 5%;
+  width:400px;
+  height:45px;
+  font-size:15px;
+  margin-right:100px;
+}
+
+.form {
+  display: inline;
+}
+
+.link-bar {
+  margin-left:10px;
+  float:right;
+  height:65px;
+  width:65px;
+  display: inline;
+}
+
+.top-line {
+  margin:0;
+}
+
+.bottom-line {
+  border: 0;
+  height: 2px;
+  background: red;
+  margin:0;
+}
+
+.nav-link {
+  color:black;
+  text-align:center;
+}
+
+.nav-item-dropdown {
+  margin-left:50px;
+}
+
+.centerWindow {
+ position:absolute; 
+ width:100px; 
+ height:100px; 
+ top:50%; 
+ left:50%; 
+ margin-top:-50px; 
+ margin-left:-50px;
 }
